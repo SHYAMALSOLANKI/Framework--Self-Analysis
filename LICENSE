@@ -1,0 +1,130 @@
+"""
+Free-Use Collective Benefit License (FUCBL)
+Version 1.0, September 2025
+
+AUTONOMOUS TECHNICAL EXPERT PROJECT PARTNER FRAMEWORK
+Copyright (c) 2025 PB2S Partnership Project
+
+PREAMBLE
+
+This license is designed to maximize collective benefit while ensuring free use
+for individuals, teams, and organizations seeking to improve project management
+outcomes through systematic AI-Human partnership approaches.
+
+The framework was developed through real partnership experience and is offered
+freely to help struggling project managers worldwide achieve better outcomes
+through systematic technical expert collaboration.
+
+TERMS AND CONDITIONS
+
+1. PERMISSIONS
+
+You are hereby granted, free of charge, to any person or organization obtaining
+a copy of this software and associated documentation files (the "Framework"),
+to deal in the Framework without restriction, including without limitation the
+rights to:
+
+a) USE: Use the Framework for any purpose, including commercial purposes
+b) MODIFY: Modify, adapt, and customize the Framework for your specific needs
+c) DISTRIBUTE: Distribute copies of the Framework to third parties
+d) INTEGRATE: Incorporate the Framework into other projects and systems
+e) SUBLICENSE: Grant sublicenses to third parties under compatible terms
+
+2. COLLECTIVE BENEFIT ENCOURAGEMENT
+
+While not required, users are encouraged to contribute back to the collective
+benefit of the community by:
+
+a) Sharing improvements, enhancements, and bug fixes with the community
+b) Contributing case studies and examples of successful Framework usage
+c) Providing feedback and suggestions for Framework improvement
+d) Helping to maintain and improve documentation
+e) Supporting other users through community forums and discussions
+
+3. ATTRIBUTION
+
+When using or distributing the Framework, you should include:
+
+a) This license notice in all substantial portions of the Framework
+b) Attribution to the original authors and project
+c) A notice that the work is licensed under the FUCBL
+
+4. NO WARRANTY
+
+THE FRAMEWORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE FRAMEWORK OR THE USE OR OTHER DEALINGS IN
+THE FRAMEWORK.
+
+5. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS FRAMEWORK, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+6. COMMUNITY STANDARDS
+
+Users of this Framework are expected to:
+
+a) Respect intellectual property rights of others
+b) Use the Framework ethically and responsibly
+c) Not use the Framework for harmful, illegal, or unethical purposes
+d) Contribute positively to the community when possible
+e) Help others learn and benefit from the Framework
+
+7. COMPATIBILITY
+
+This license is compatible with:
+- MIT License (for integration with MIT-licensed projects)
+- Apache License 2.0 (for integration with Apache-licensed projects)
+- Creative Commons licenses (for documentation and non-code content)
+- Most other permissive open-source licenses
+
+8. EVOLUTION
+
+This license may be updated to better serve the collective benefit of the
+community. Users will be notified of significant changes, and existing
+uses under previous versions remain valid.
+
+9. INTERPRETATION
+
+This license should be interpreted in the spirit of maximizing collective
+benefit while ensuring freedom of use. In case of ambiguity, the interpretation
+that best serves both individual freedom and community benefit should prevail.
+
+10. GOVERNING TERMS
+
+By using this Framework, you agree to these terms and acknowledge that you
+understand the collective benefit philosophy underlying this license.
+
+---
+
+FOR MORE INFORMATION:
+
+- Framework Repository: [GitHub URL]
+- Community Discussions: [Discussions URL]
+- Bug Reports: [Issues URL]
+- Documentation: [Docs URL]
+
+CONTACT:
+
+For questions about this license or the Framework:
+- Technical Questions: GitHub Issues
+- License Questions: GitHub Discussions
+- Enterprise Inquiries: [Contact Information]
+
+---
+
+This license promotes innovation, collaboration, and collective benefit while
+ensuring maximum freedom for users. Thank you for contributing to a better
+future for project management through systematic AI-Human partnership.
+
+END OF LICENSE TERMS
+"""
