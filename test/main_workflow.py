@@ -6,7 +6,19 @@ Tests the semantic_search() → file_search() → read_file() → grep_search() 
 import pytest
 import asyncio
 from unittest.mock import Mock, patch, AsyncMock
-from src.core.autonomous_framework import AutonomousTechnicalExpertFramework, ProjectAsset
+import importlib.util
+import os
+
+# Import the framework with correct path
+spec = importlib.util.spec_from_file_location(
+    "autonomous_framework", 
+    os.path.join(os.path.dirname(__file__), "..", r"C:\Users\Admin\Documents\pb2s\PB2S_PRODUCTION_READY\ITERATION_1\Autonomous_Technical_Expert_Framework\src\core", "autonomus_framework.py")
+)
+autonomous_framework = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(autonomous_framework)
+
+AutonomousTechnicalExpertFramework = autonomous_framework.AutonomousTechnicalExpertFramework
+ProjectAsset = autonomous_framework.ProjectAsset
 from datetime import datetime
 
 
