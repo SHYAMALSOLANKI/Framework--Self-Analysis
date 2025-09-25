@@ -1,0 +1,79 @@
+name: Framework Validation - Complete Cycle Test
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  complete-framework-validation:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, 3.10, 3.11]
+    
+    steps:
+    - name: 🚀 Checkout Framework
+      uses: actions/checkout@v4
+      
+    - name: 🐍 Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name: 📦 Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-cov pytest-asyncio
+        
+    - name: 🔍 Phase 1 - Information Gathering Validation
+      run: |
+        echo "🎯 Testing Information Gathering Workflow..."
+        python -m pytest tests/test_information_gathering.py -v --tb=short
+        
+    - name: 🛠️ Phase 2 - Safe Development Validation  
+      run: |
+        echo "🎯 Testing Safe Development Workflow..."
+        python -m pytest tests/test_safe_development.py -v --tb=short
+        
+    - name: ✅ Phase 3 - Quality Assurance Validation
+      run: |
+        echo "🎯 Testing Quality Assurance Workflow..."
+        python -m pytest tests/test_quality_assurance.py -v --tb=short
+        
+    - name: 🔄 Complete Cycle Integration Test
+      run: |
+        echo "🎯 Testing Complete Framework Integration..."
+        python -m pytest tests/test_complete_cycle.py -v --tb=short
+        
+    - name: 📊 Framework Effectiveness Metrics
+      run: |
+        echo "🎯 Measuring Framework Effectiveness..."
+        python tests/measure_framework_effectiveness.py
+        
+    - name: 🧠 Cognitive Architecture Validation
+      run: |
+        echo "🎯 Validating Cognitive Architecture..."
+        python tests/validate_cognitive_architecture.py
+        
+    - name: 📈 Generate Test Coverage Report
+      run: |
+        python -m pytest --cov=src/core --cov-report=xml --cov-report=html
+        
+    - name: 📋 Upload Coverage to Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage-report-${{ matrix.python-version }}
+        path: htmlcov/
+        
+    - name: ✅ Framework Validation Status
+      run: |
+        echo "🎉 Framework Validation Complete!"
+        echo "✅ Information Gathering: PASSED"
+        echo "✅ Safe Development: PASSED" 
+        echo "✅ Quality Assurance: PASSED"
+        echo "✅ Complete Integration: PASSED"
+        echo "✅ Cognitive Architecture: VALIDATED"
+        echo "🚀 Framework Ready for Production Use!"
