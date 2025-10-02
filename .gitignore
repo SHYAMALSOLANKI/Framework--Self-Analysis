@@ -6,6 +6,8 @@ __pycache__/
 # Test cache
 .pytest_cache/
 .coverage
+coverage.xml
+htmlcov/
 
 # Virtual environments
 venv/
@@ -29,3 +31,7 @@ framework.log
 # Temporary files
 tmp/
 temp/
+*_workspace/
+demo_workspace/
+effectiveness_workspace/
+test_workspace/
